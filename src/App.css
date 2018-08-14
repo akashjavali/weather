@@ -1,0 +1,89 @@
+
+button {
+  cursor: pointer;
+}
+
+p {
+  
+  font-family: fantasy;
+  font-size: 25px;
+  text-align: left;
+  margin: 20px;
+}
+
+
+h3 {
+  font-size: 19px;
+  text-transform: uppercase;
+  justify-content: center;
+  padding: 0px 15px;
+  
+  font-family: 'Roboto Mono', monospace;
+  
+}
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tb {
+display: inline-block;
+padding-top: 5px;
+
+}
+
+input {
+width: 50em;
+
+}
+.top {
+background-color: rgba(0, 26, 255, 0.897);
+
+
+}
+form {
+  display: inline-block;
+}
+button:hover {
+background-color: red;
+  color: white;
+  text-decoration: underline;
+}
+
+img {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+
+.name, .disc, .speed, .hum {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 5px;
+  
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.disc {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.main {
+  margin-left: 300px;
+  color: gray;
+}
+
+.temp {
+  color: black;
+}
+/* 
+.parti {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+} */
